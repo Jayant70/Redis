@@ -26,7 +26,7 @@ func main() {
 			continue
 		}
 		//Handle client connection
-		handleClient(conn)
+		go handleClient(conn)
 	}
 }
 
