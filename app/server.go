@@ -20,7 +20,6 @@ func main() {
 	defer listener.Close()
 
 	fmt.Println("Server is listening on port 6379")
-	fmt.Println("Test commit")
 
 	for {
 		//Block untill we recive an incoming connection
